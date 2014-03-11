@@ -1,9 +1,13 @@
 {
     "name": "appirio-heroku-connect"
   , "version": "0.0.1"
+  , "engines": {
+    "node": "*",
+    "npm":  "*"
+  }
   , "private": true
   , "dependencies": {
-      "express": "*",
-      "connect": "*"
+      "express": "2.5.8"
+    , "jade": "*"
   }
 }
